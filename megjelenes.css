@@ -1,13 +1,16 @@
 *{
     box-sizing: border-box;
-    padding: 0px;
+    padding: 5px;
     margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 header{
     grid-area: he;
 }
 nav{
     grid-area: na;
+    background-color: rgb(0,135,104);
+    padding: 20px;
 }
 aside#bal{
     grid-area: ab;
@@ -31,9 +34,38 @@ main{
     'ab aj'
     'fo fo'
     ;
+    width: 80%;
 }
 
 #jobb>img{
-    height: 250px;
-    width: auto;
+    height: auto;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
+#hf>img, #kb>img{
+    height: auto;
+    width: 100%;
+}
+
+main{
+    /*tartalom középre rendezése*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    color: rgb(0,135,104);
+}
+
+nav>a{
+    text-decoration: none;
+    color: rgb(88, 198, 156);
+}
+
+footer>p{
+    color: rgb(88, 198, 156);
+    /*szöveg középre igazítása*/
+    text-align: center;
+}
+
